@@ -64,6 +64,7 @@
 		<a class="dropdown-toggle" id="menu-settings" role="button" data-toggle="dropdown" data-target="#" href="<?php echo $sezione ?>.php">MENU <i class="icon-th-list dx"></i></a>
 		<ul class="dropdown-menu" role="menu" aria-labelledby="menu-settings">
 			<li class="<?php ami('index'); ?>"><a href="index.php"><i class="icon-play sx"></i> Playback</a></li>
+			<li class="<?php ami('webradio'); ?>"><a href="webradio.php"><i class="icon-play sx"></i> Web Rádio</a></li>
 			<li class="<?php ami('sources'); ?>"><a href="sources.php"><i class="icon-folder-open sx"></i> Database</a></li>
 			<li class="<?php ami('mpd-config'); ?>"><a href="mpd-config.php"><i class="icon-cogs sx"></i> MPD</a></li>
 			<li class="<?php ami('net-config'); ?>"><a href="net-config.php"><i class="icon-sitemap sx"></i> Network</a></li>

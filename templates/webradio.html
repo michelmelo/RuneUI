@@ -1,0 +1,28 @@
+<div class="container credits">
+	<h1>Web Rádio</h1>	
+	<form class="form-horizontal" data-validate="parsley" action="webradio.php" method="post">
+		<fieldset>
+			<!--<legend>$_title  <span class=" $_hide ">(<button type="submit" class="btn btn-link btn-nobtn" name="delete" value="1">remove this mount</button>)</span></legend>-->
+			<!--legend>$_title  
+				<span class=" $_hide ">(<a href="#source-delete-modal" data-toggle="modal">
+					remove this mount</a>)</span>
+			</legend-->
+			<div class="control-group">
+			<!--div class="alert alert-info $_hideerror ">
+			<i class='icon-remove red sx'></i> Last system mount error</br>
+			$_error
+			</div-->
+				<label class="control-label" for="webradioname">Source name</label>
+				<div class="controls">
+					<input class="input-large" type="text" id="webradioname" name="webradioname" value="" data-trigger="change" placeholder="http://webradio.com:8000">
+					<input type="hidden" name="add" value="addwebradio">
+					<span class="help-block">test </span>
+				</div>
+			</div>
+		<fieldset>
+		<div class="form-actions">
+			<a href="sources.php" class="btn btn-large" data-ajax="false">Cancel</a>
+			<button type="submit" class="btn btn-primary btn-large" name="save" value="save">Save</button>
+		</div>
+	</form>
+</div>
